@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/images.png" type="image/x-icon">
+    <title>Book Mark</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Mono:wght@500&family=Libre+Baskerville:wght@400;700&family=Orbitron&display=swap"
+            rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<div class="position-fixed top-0 end-0 start-0 bottom-0" id="particles-js"></div>
+    <div class="container bg-gradient rounded-4  fs-1 shadow-lg py-5  my-5">
+        <h1 class="rounded-4 text-dark  text-center my-3"> Book mark </h1>
+        <div class="row mx-auto w-100">
+            <div class="col-md-6 my-3 w-100">
+                <label class="text-dark my-2" for="nameWebsite">Name</label>
+                <br>
+                <input class="form-control" type="text" placeholder="Enter name of Website" name="nameWebsite" id="nameWebsite">
+                <p class="d-none my-2 alert alert-dark" id="alertName">Please Enter Name </p>
+            </div>
+        </div>
+        <div class="row mx-auto w-100">
+             <div class="col-md-6 my-3 w-100">
+                <label class="text-dark my-2" for="urlWebsite">URL WEBSITE</label>
+                <br>
+                <input class="form-control" type="url" placeholder="Enter URL of Website" name="urlWebsite" id="urlWebsite">
+                <p class="my-2 alert alert-dark d-none" id="alerturl">Please Enter Valid URL  </p>
+                <button id="send" class="btn btn-dark my-3">Add Book Mark</button>
+            </div>
+        </div>
+           
+
+    </div>
+    <div class="container bg-gradient p-5">
+                        <label class="text-dark p-1 my-1 fs-3" for="Search">Search By Name</label>
+                        <input type="text" name="Search" id="Search" class="form-control">
+
+    </div>
+
+    <div class="container bg-gradient rounded-4 shadow-lg py-5  my-5    ">
+        <h2 class="text-center text-dark item py-2 ">ALL ITEMS</h2>
+        <div id="display" class=" row  ">
+           
+        </div>   
+        
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

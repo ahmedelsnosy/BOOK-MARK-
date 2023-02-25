@@ -1,0 +1,35 @@
+body{
+    background: radial-gradient(circle, #FF512F 50%, #DD2476 100%);    /* color:#fff; */
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Fira Mono', monospace;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Orbitron', sans-serif;
+    color: #fff;
+}
+.demo{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(2, 2, 33);   
+    
+}
+.demo li{
+    list-style: none;
+
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.item{
+    border: solid 1px;
+    border-top: transparent;
+    border-right: transparent;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+#particles-js{z-index: -1;}
+.container{
+z-index: 99999;
+}
